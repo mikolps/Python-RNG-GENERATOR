@@ -2,7 +2,7 @@
 
 **Usage**
 
-Open "Build Main.exe" or "Python.py" to open the RNG Generator.
+Open "Build Main.exe" or "Python.pyw" to open the RNG Generator.
 
 
 **Dependencies**
