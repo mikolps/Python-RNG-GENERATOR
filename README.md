@@ -13,4 +13,4 @@ PySimpleGUI (pip install PySimpleGUI)
 
 ***RealFX***
 
-*v 1.1
+*v 1.1*
