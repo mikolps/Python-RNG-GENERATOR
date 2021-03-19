@@ -34,12 +34,27 @@ window.close()
 print('You entered', values[0])
 window.close()
 
+ErrorCode = 'Unknown Value, Please Enter A Number.'
+sg.theme('RNGwindows')
+
+layout3 = [  [sg.Text('An Unknown Error Occured.')],
+            [sg.Text(ErrorCode)],
+            [sg.OK()]]
+
 while True:
     rang = values[0]
     try:
         rang = int(rang)
     except ValueError:
         print ("The number has to be an integer, try again.")
+        window = sg.Window('RNG Generator Error', layout3)
+        while True:             
+            event, values = window.read()
+            if event in (sg.WIN_CLOSED, 'OK'):
+                window.close()
+                exit()
+        exit()
+        window.close()
     else:
         break
 
