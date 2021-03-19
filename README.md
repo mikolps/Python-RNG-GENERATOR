@@ -2,7 +2,7 @@
 
 **Usage**
 
-Open "Build Main.exe" or "Python.pyw" to open the RNG Generator.
+Open "python.exe" or "Python.pyw" to open the RNG Generator.
 
 
 **Dependencies**
@@ -12,3 +12,5 @@ PySimpleGUI (pip install PySimpleGUI)
 
 
 ***RealFX***
+
+*v 1.1
